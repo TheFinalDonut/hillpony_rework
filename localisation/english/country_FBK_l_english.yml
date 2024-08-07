@@ -1,0 +1,212 @@
+﻿l_english:
+###########################################
+### FOCUS LOCALISATION ####################
+###########################################
+#INTIAL TREE
+FBK_council:0 "The Council Deliberates"
+FBK_council_desc:0 ""
+FBK_cenhelm:0 "The Brave"
+FBK_cenhelm_desc:0 ""
+FBK_traditionalists:0 "The Old Guard"
+FBK_traditionalists_desc:0 ""
+FBK_hermane:0 "The Madmare"
+FBK_hermane_desc:0 ""
+FBK_external_issues:0 "Issues Without"
+FBK_external_issues_desc:0 ""
+FBK_internal_issues:0 "And Within"
+FBK_internal_issues_desc:0 ""
+FBK_the_decision:0 "The Decision"
+FBK_the_decision_desc:0 ""
+#CENHELM INTIAL TREE
+FBK_intial_cenhelm:0 "Cenhelm's Dream"
+FBK_cenhelm_the_reformer:0 "Cenhelm the Reformer"
+FBK_cenhelm_the_reformer_desc:0 ""
+FBK_birth_of_the_hillfolk_league:0 "Birth of the Hillfolk League"
+FBK_birth_of_the_hillfolk_league_desc:0 ""
+#HERMANE INITIAL TREE
+FBK_intial_hermane:0 "Hermane's Vision"
+FBK_hermane_triumph:0 "Hermane Triumphs"
+FBK_hermane_triumph_desc:0 ""
+FBK_hermane_great_purge:0 "The Great Purge"
+FBK_hermane_great_purge_desc:0 ""
+FBK_reassure_cenhelm:0 "Reassure Cenhelm"
+FBK_reassure_cenhelm_desc:0 ""
+FBK_reinforce_the_white_hooves:0 "Reinforce the White Hooves"
+FBK_reinforce_the_white_hooves_desc:0 "Beat up muh enemies"
+FBK_hail_to_chief:0 "Hail to the Chief!"
+FBK_hail_to_chief_desc:0 ""
+FBK_gering_to_rijekograd:0 "Gering to Rijekograd"
+FBK_gering_to_rijekograd_desc:0 ""
+FBK_hermane_machinations:0 "Hermane's Maniacal Machinations"
+FBK_hermane_machinations_desc:0 ""
+###########################################
+### LEADERS ###############################
+###########################################
+FBK_council_of_chieftains:0 "Council of Chieftains"
+FBK_hermane_gering:0 "Hermane Gering"
+FBK_king_hermane_i:0 "King Hermane I"
+FBK_grand_duke_hermane_i:0 "Grand Duke Hermane I"
+FBK_cenhelm_of_farbrook:0 "Cenhelm Gering"
+FBK_a_squabbling_group_of_stallionists:0 "A Squabbling Group of Stallionists"
+FBK_comrade_applethorn:0 "Comrade Applethorn"
+FBK_hempstrand_char:0 "Hempstrand"
+FBK_interim_government:0 "Interim Government"
+
+###########################################
+### PARTIES ###############################
+###########################################
+
+###########################################
+### GENERALS ##############################
+###########################################
+FBK_taffy_swirl:0 "Taffy Swirl"
+FBK_mertweth_of_losthope:0 "Mertweth of Losthope"
+FBK_minnyhooves:0 "Minnyhooves"
+FBK_chief_brightflank:0 "Chief Brightflank"
+
+###########################################
+### ADVISORS ##############################
+###########################################
+FBK_advisor1:0 "Greycoat"
+FBK_advisor2:0 "Thrift Grift"
+FBK_advisor3:0 "Glint Gold"
+FBK_advisor4:0 "Warmheart"
+FBK_advisor5:0 "Iratus Arcana"
+FBK_advisor6:0 "Featherhooves"
+FBK_advisor7:0 "Dugout"
+FBK_advisor8:0 "Whitefeathers"
+FBK_advisor9:0 "Golden Wing"
+FBK_advisor10:0 "Seashanty"
+FBK_advisor11:0 "Saltlick"
+FBK_advisor12:0 "Sure Shot"
+FBK_advisor13:0 "Fleethoof"
+FBK_advisor14:0 "Barrel Chest"
+FBK_advisor15:0 "Keen Eye"
+FBK_advisor16:0 "War Room"
+FBK_advisor17:0 "Red Feathers"
+FBK_advisor18:0 "Bright Spark"
+
+###########################################
+### DESIGNERS #############################
+###########################################
+FBK_advisor19:0 "Tugworth Tractor Factory"
+FBK_advisor20:0 "Maxima Armor Concern"
+FBK_advisor21:0 "Farbrook Munition Co."
+FBK_advisor22:0 "Bitbridle Rifles"
+FBK_advisor23:0 "Whiteline Vehicles"
+FBK_advisor24:0 "Farbrook Guild of Merchants"
+FBK_advisor25:0 "Jezeragrad Electronics, Farbrook Branch"
+FBK_advisor26:0 "Hillwings Aviation"
+FBK_advisor27:0 "Northern Wind Co."
+FBK_advisor28:0 "Losthope Shipping Co."
+FBK_advisor29:0 "Bakaran Emissaries"
+FBK_advisor30:0 "Blue Flag Pirates"
+
+###########################################
+### IDEAS #################################
+###########################################
+
+EAW_WS_FBK:0 "Farbrook - Home of the Hillponies"
+EAW_WS_FBK_desc:0 "In the far north-east of the Griffonian Continent, there lie many scattered settlements of ponies. The most northerly of these is Farbrook, a collection of villages and towns centered on the great (by northern standards) central city of Farbrook proper.\n\nIn 1007, the ponies of Farbrook are very worried. Though their leader, §YCenhelm§!, has proven capable, his seven-year stint as elected high chief is coming to a close, and the Grand Council will soon meet to choose who should be leader over all the villages. Cenhelm has an impressive record, but many factors are in play that could scuttle his chances at a second term. The most notable problems facing Farbrook can be grouped into two broad categories - §Yexternal danger§! and §Yinternal dissent.§! Farbrook is small, weak, and well aware of both of these facts, and its ponies are none too happy about that. We need to find some way to §Yprotect ourselves§!, whether this be through a §Ystrong military§! or through §Ymaking friends§! with others.\n\nThe internal threat is related to the external one - the fear of attack, and the knowledge of our vulnerability both make Farbrook ponies paranoid, and if the problem is not addressed quickly enough, they will be increasingly open to §Rradical voices§! who offer easy solutions. Both the §YNorth Eastern Socialist Party§! and the vicious, warlike §YWhite Hooves Clan§! offer solutions to this problem, both involving rapid militarisation and vigorous suppression of internal enemies. It is unlikely, but possible, that the §YCouncil could listen to them§! instead of Cenhelm. Even if they do not, danger would not be completely averted, as Cenhelm would then need to §Ydeal with them himself§! to ensure stability.\n\nFarbrook is surrounded mostly by neutral or friendly nations, and have an §Yespecially strong bond§! with the changelings of §YGreneclyf§!, across the sea. If anything were to happen to them, they would probably turn to us for help first. To the South lies the §YRiver Coalition.§! They see us as their long-lost cousins, and oughtn't be a threat, but nobody can be sure if they truly have our best interests at heart. Finally, to the south-west lies §RHellquill§!, the Griffon knightly order that has ravaged the eastern ponies for centuries. They are almost certain to end up as a threat, one way or another."
+FBK_next_to_LCT:0 "Either we or one of our allies are next to Lake City or one of their allies"
+###########################################
+### EVENTS #################################
+###########################################
+FBK_initial.1.t:0 "The Council of Chieftains"
+FBK_initial.1.d:0 "There's a council with Chieftains."
+FBK_initial.1.a:0 "Holy shit"
+
+FBK_initial.2.t:0 "The Cenhelm Clique"
+FBK_initial.2.d:0 "The Gering Brothers have dominated the Reformist Faction in Farbrook ever since their rise to political prominence. However, due to their differing visions for the future of Farbrook, the duo have split the Reformists down ideological lines. The younger of the two - Cenhelm - leads the harmonic and pacifist wing of the faction."
+FBK_initial.2.a:0 "Holy shit"
+FBK_initial.2.b:0 "Shit"
+
+FBK_initial.3.t:0 "The Old Guard"
+FBK_initial.3.d:0 "Tribal traditionalist anarchists?????????"
+FBK_initial.3.a:0 "Holy shit"
+FBK_initial.3.b:0 "Shit"
+
+FBK_initial.4.t:0 "The Hermane Clique"
+FBK_initial.4.d:0 "The Gering Brothers have dominated the Reformist Faction in Farbrook ever since their rise to political prominence. However, due to their differing visions for the future of Farbrook, the duo have split the Reformists down ideological lines. The older of the two - Hermane - leads the hyperindustrialist and revanchist wing of the faction."
+FBK_initial.4.a:0 "Holy shit"
+FBK_initial.4.b:0 "Shit"
+
+FBK_initial.5.t:0 "Yo maybe the baddies up north are bad"
+FBK_initial.5.d:0 "Cenhelm spat, Hermane shat."
+FBK_initial.5.a:0 "The Old Guard literally did nothing."
+FBK_initial.5.b:0 "At least Cenhelm didn't shit."
+FBK_initial.5.c:0 "Hermane has created a beautiful metaphor for our country."
+
+FBK_initial.6.t:0 "Our country is shit"
+FBK_initial.6.d:0 "Thoughts?"
+FBK_initial.6.a:0 "Nah."
+FBK_initial.6.b:0 "Yeah."
+FBK_initial.6.c:0 "YEAH."
+
+FBK_initial.7.t:0 "The Decision"
+FBK_initial.7.d:0 "The Council has selected Cenhelm to become High Chieftan."
+FBK_initial.7.a:0 "Farbrook Steps into the Future"
+
+FBK_initial.8.t:0 "The Decision"
+FBK_initial.8.d:0 "The Council has selected Hermane to become High Chieftan."
+FBK_initial.8.a:0 "Farbrook Charges into the Future"
+
+FBK_initial.9.t:0 "The Decision"
+FBK_initial.9.d:0 "The Council has selected Some Rando Trad to become High Chieftan."
+FBK_initial.9.a:0 "Farbrook Retreats into the Past"
+###CUSTOM TOOLTIPS###
+FBK_chieftan_election_tooltip:0 "§OThe next High Chief of Farbrook will be elected by the Council based on your prior decisions.§!"
+
+FBK_gering_will_be_crowned:0 "Hermane will become §Ythe first King of the House of Gering§!. Long may his line live!\n"
+FBK_gering_will_be_duke:0 "Hermane will become §Ythe first Grand Duke of the House of Gering§!, and his line will become part of the greatest Empire the world has ever known.\n"
+FBK_stick_with_LCT:0 "We have remained faithful to our Pricely Ally"
+FBK_abandon_LCT:0 "We have broken our alliance with the Prince"
+FBK_alone:0 "We have maintained our independence"
+FBK_sides_with_GRI:0 "We have kept faith with the Empire"
+NE_danger_tooltip:0 "§RIf at any point your stability drops too low, things will be bad for you. If it drops below 15%, you will have a VERY bad time.§!\n"
+FBK_prince_agreed:0 "Prince Heavenly Snow has agreed to support us"
+FBK_restore_order_tooltip:0 "Unlocks §Ydecisions§! that allow you to gain wargoals on northern nations that §Rveer from the path of peace.§!\n"
+FBK_capital_ship_build:0 "Unlocks §Ydecisions§! that allow you to construct one §YBig Ship§! for significantly less time and effort than normal."
+FBK_vanguard_party:0 "FRVP"
+FBK_vanguard_party_long:0 "Farbrook Revolutionary Vanguard Party"
+FBK_agrarian_party:0 "SAP"
+FBK_agrarian_party_long:0 "Socialist Agrarian Party"
+FBK_utopia_tooltip:0 "We will finally eliminate §Rinjustice§! and §Revil§! from our people, forging a §Yperfect society.§!\n"
+FBK_rejected_NCH:0 "Greneclyf abjures our friendship"
+FBK_rejected_FIR:0 "Firtrees refuses to help us"
+FBK_rejected_LCT:0 "Lake City ignores our pleas"
+FBK_rejected_RCT:0 "The River Republic has no interest in our plight"
+FBK_rejected_NIM:0 "Nimbusia shows us no pity"
+###DECISIONS###
+FBK_build_capital_ship_category:0 "Construct A Capital Ship"
+FBK_build_the_FBS_Brilliant:0 "Build the FBS Brilliant Battleship"
+FBK_build_the_FBS_Brilliant_tt:0 "Spawns a §YBattleship§! in Farbrook."
+FBK_build_the_FBS_Colossus:0 "Build the FBS Colossus Carrier"
+FBK_build_the_FBS_Colossus_tt:0 "Spawns a §YCarrier§! in Farbrook."
+FBK_capital_ships:0 "A Great Battleship"
+FBK_carrier:0 "An Aircraft Carrier"
+FBK_reach_out_to_gytha_category:0 "Saving A Friend"
+FBK_reach_out_to_gytha:0 "Reach Out To Gytha"
+FBK_reach_out_to_gytha_desc:0 "Queen Gytha, ruler of the changelings of Greneclyf and our friend of many years, has become despondent. She has withdrawn all contact and cut herself off from the outside world, renouncing friendship. We have to try to get through to her! §YThis will be heavily influenced by how you responded to Gytha's initial trade offer.§!\n"
+FBK_northern_guardian_category:0 "Guardian Of The North"
+FBK_restore_order:0 "Restore Order In [From.GetName]"
+FBK_beg_for_food_category:0 "Beg For Food"
+FBK_beg_for_food_category_desc:0 "Our nation is in anarchy, and we are running out of both food and time. We must beg someone else to save us."
+FBK_beg_NCH:0 "Beg For Help From Our Old Friends"
+FBK_beg_FIR:0 "Beg For Help From The Hillponies"
+FBK_beg:0 "Beg For Help From [From.GetNameDef]"
+FBK_request_aid_category:0 "Aid From Our Imperial Allies"
+FBK_request_aid_category_desc:0 "As a loyal vassal of the Griffonian Empire, we have the right to request support, primarily in firearms and other military hardware, provided that Chieftain Gering restrains himself from asking too much and too often."
+FBK_ask_for_guns:0 "Request Rifles"
+FBK_ask_for_artillery:0 "Ask For Artillery"
+FBK_ask_for_planes:0 "Plead For Planes"
+
+villages_crisis_category:0 "Modernisation Crisis"
+villages_crisis:0 "The Agrarian Revolt"
+villages_crisis_desc:0 "If left unchecked, the opposition to modernisation in [Root.GetName] will soon reach its boiling point. A revolt will be a grave setback to our modernisation efforts."
+##DYNAMIC FOCUS TEXT##
+
+
+Hillfolk_League_Faction:0 "Hillfolk League"
+NE_military_party:0 "The Military Government"
+NE_military_party_long:0 "The Military Government"

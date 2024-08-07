@@ -1,0 +1,56 @@
+focus_tree = {
+	id = FBK_intial_cenhelm
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 15
+			tag = FBK
+			has_country_flag = supported_cenhelm
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1475 }
+	
+	focus = {
+		id = FBK_cenhelm_the_reformer
+		icon = GFX_goal_support_democracy
+		x = 14
+		y = 0
+		ai_will_do = { factor = 250 }
+		cost = 1
+		available_if_capitulated = yes
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FBK_cenhelm_the_reformer"
+			#add_political_power = 100
+			#country_event = { days = 1 id = FBK.1 }
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = FBK_birth_of_the_hillfolk_league
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = FBK_cenhelm_the_reformer }
+		x = 14
+		y = 1
+
+		ai_will_do = { factor = 250 }
+		cost = 2
+		available_if_capitulated = yes
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FBK_birth_of_the_hillfolk_league"
+			#add_political_power = 100
+			#country_event = { days = 1 id = FBK.1 }
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+}
+

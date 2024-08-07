@@ -1,0 +1,174 @@
+focus_tree = {
+	id = FBK_intial_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = FBK
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 1475 }
+	
+	focus = {
+		id = FBK_council
+		icon = GFX_goal_generic_neutrality_focus
+		x = 10
+		y = 0
+		ai_will_do = { factor = 250 }
+		cost = 2
+		available_if_capitulated = yes
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FBK_council"
+			country_event = FBK_initial.1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = FBK_cenhelm
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = FBK_council }
+
+		x = 8
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		available = {
+			
+		}
+		ai_will_do = { factor = 250 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FBK_cenhelm"
+			country_event = FBK_initial.2
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+	}
+	focus = {
+		id = FBK_traditionalists
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = FBK_council }
+
+		x = 10
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		available = {
+			
+		}
+		ai_will_do = { factor = 250 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FBK_traditionalists"
+			country_event = FBK_initial.3
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+	}
+	focus = {
+		id = FBK_hermane
+		icon = GFX_goal_support_fascism
+		prerequisite = { focus = FBK_council }
+
+		x = 12
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		available = {
+			
+		}
+		ai_will_do = { factor = 250 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FBK_hermane"
+			country_event = FBK_initial.4
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+	}
+	focus = {
+		id = FBK_external_issues
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {focus = FBK_hermane}
+		prerequisite = {focus = FBK_traditionalists}
+		prerequisite = {focus = FBK_cenhelm}
+		x = 9
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		available = {
+			
+		}
+		ai_will_do = { factor = 250 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FBK_external_issues"
+			country_event = FBK_initial.5
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+	}
+	focus = {
+		id = FBK_internal_issues
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {focus = FBK_hermane}
+		prerequisite = {focus = FBK_traditionalists}
+		prerequisite = {focus = FBK_cenhelm}
+
+		x = 11
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		available = {
+			
+		}
+		ai_will_do = { factor = 250 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FBK_internal_issues"
+			country_event = FBK_initial.6
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+	}
+	focus = {
+		id = FBK_the_decision
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {focus = FBK_external_issues}
+		prerequisite = {focus = FBK_internal_issues}
+		x = 10
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		available = {
+			
+		}
+		ai_will_do = { factor = 250 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FBK_the_decision"
+			custom_effect_tooltip = FBK_chieftan_election_tooltip
+			hidden_effect = {
+				if = {
+					limit = {
+						neutrality > 0.5
+					}    
+					country_event = FBK_initial.9
+				}
+				else = {
+					if = {
+						limit = {
+							fascism > party_popularity@democratic
+						}    
+						country_event = FBK_initial.8
+					}
+					else = {
+						if = {
+							limit = {
+								democratic > party_popularity@fascism
+							}    
+							country_event = FBK_initial.7
+						}
+					}
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+	}
+}
+

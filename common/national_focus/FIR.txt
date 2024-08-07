@@ -1,0 +1,66 @@
+focus_tree = {
+	id = FIR_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			original_tag = FIR
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1475 }
+
+}
+
+focus_tree = {
+	id = FIR_focus_spirits
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 100
+			original_tag = FIR
+			has_country_flag = FIR_possessed
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1475 }
+
+}
+
+focus_tree = {
+	id = FIR_focus_avatar
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			original_tag = FIR
+			has_country_flag = FIR_is_avatar
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1475 }
+
+}
+
+focus_tree = {
+
+	id = FIR_focus_evilmagic
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 100
+			original_tag = FIR
+			OR = {
+				has_country_flag = FIR_newsociety
+				has_country_flag = FIR_is_raider
+			}
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1475 }
+
+}

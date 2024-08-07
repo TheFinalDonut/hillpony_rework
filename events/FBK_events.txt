@@ -1,0 +1,328 @@
+﻿add_namespace = FBK_debug
+
+add_namespace = FBK_initial
+add_namespace = FBK_cenhelm
+add_namespace = FBK_old_guard
+add_namespace = FBK_initial_hermane
+add_namespace = FBK_drinking
+add_namespace = FBK_coalition_hermane
+add_namespace = FBK_lake_hermane
+add_namespace = FBK_imperial_hermane
+
+country_event = {
+	id = FBK_debug.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_debug.1"}
+	title = FBK_debug.1.t
+	desc = FBK_debug.1.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_debug.1.a
+		hidden_effect = {
+			set_country_flag = supported_cenhelm
+		}
+		load_focus_tree = {
+			tree = FBK_intial_cenhelm
+			#keep_completed = yes
+		}
+	}
+	option = {
+		name = FBK_debug.1.b
+		hidden_effect = {
+			set_country_flag = supported_hermane
+		}
+		load_focus_tree = {
+			tree = FBK_intial_hermane
+			keep_completed = yes
+		}
+	}
+}
+
+country_event = {
+	id = FBK_initial.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial.1"}
+	title = FBK_initial.1.t
+	desc = FBK_initial.1.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial.1.a
+		hidden_effect = {
+			
+		}
+		
+	}
+}
+country_event = {
+	id = FBK_initial.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial.2"}
+	title = FBK_initial.2.t
+	desc = FBK_initial.2.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial.2.a
+		hidden_effect = {
+			
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.04
+		}
+	}
+	option = {
+		name = FBK_initial.2.b
+		hidden_effect = {
+			
+		}
+		add_political_power = 40
+	}
+}
+country_event = {
+	id = FBK_initial.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial.3"}
+	title = FBK_initial.3.t
+	desc = FBK_initial.3.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial.3.a
+		hidden_effect = {
+			
+		}
+		add_stability = 0.03
+		add_war_support = -0.05
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.04
+		}
+	}
+	option = {
+		name = FBK_initial.3.b
+		hidden_effect = {
+			
+		}
+		add_political_power = 50
+	}
+}
+country_event = {
+	id = FBK_initial.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial.4"}
+	title = FBK_initial.4.t
+	desc = FBK_initial.4.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial.4.a
+		hidden_effect = {
+			
+		}
+		add_war_support = 0.05
+		add_political_power = -25
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.04
+		}
+	}
+	option = {
+		name = FBK_initial.4.b
+		hidden_effect = {
+			
+		}
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = FBK_initial.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial.5"}
+	title = FBK_initial.5.t
+	desc = FBK_initial.5.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial.5.a
+		hidden_effect = {
+			
+		}
+		add_war_support = -0.05
+		add_political_power = 50
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.04
+		}
+	}
+	option = {
+		name = FBK_initial.5.b
+		hidden_effect = {
+			
+		}
+		add_political_power = 25
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.04
+		}
+	}
+	option = {
+		name = FBK_initial.5.c
+		hidden_effect = {
+			
+		}
+		add_war_support = 0.05
+		add_political_power = -25
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.04
+		}
+	}
+}
+
+country_event = {
+	id = FBK_initial.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial.6"}
+	title = FBK_initial.6.t
+	desc = FBK_initial.6.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial.6.a
+		hidden_effect = {
+			
+		}
+		add_stability = 0.05
+		add_political_power = -25
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.04
+		}
+	}
+	option = {
+		name = FBK_initial.6.b
+		hidden_effect = {
+			
+		}
+		add_stability = 0.02
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.04
+		}
+	}
+	option = {
+		name = FBK_initial.6.c
+		hidden_effect = {
+			
+		}
+		add_stability = -0.03
+		add_political_power = 25
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.04
+		}
+	}
+}
+#CENHELM
+country_event = {
+	id = FBK_initial.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial.7"}
+	title = FBK_initial.7.t
+	desc = FBK_initial.7.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial.7.a
+		hidden_effect = {
+			set_country_flag = supported_cenhelm
+		}
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_stability = 0.05
+		add_political_power = 150
+		load_focus_tree = {
+			tree = FBK_intial_cenhelm
+			#keep_completed = yes
+		}
+	}
+}
+#HERMANE
+country_event = {
+	id = FBK_initial.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial.8"}
+	title = FBK_initial.8.t
+	desc = FBK_initial.8.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial.8.a
+		hidden_effect = {
+			set_country_flag = supported_hermane
+		}
+		set_politics = {
+			ruling_party = fascism
+		}
+		add_war_support = 0.10
+		add_political_power = 100
+		load_focus_tree = {
+			tree = FBK_intial_hermane
+			#keep_completed = yes
+		}
+	}
+}
+#EPIC ANARCHO-TRADS
+country_event = {
+	id = FBK_initial.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial.9"}
+	title = FBK_initial.9.t
+	desc = FBK_initial.9.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial.9.a
+		hidden_effect = {
+			set_country_flag = supported_trads
+		}
+		add_stability = 0.10
+		add_war_support = -0.10
+		add_political_power = 50
+	}
+}

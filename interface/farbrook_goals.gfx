@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	#### Hermane
+
+
+	SpriteType = {
+		name = "GFX_goal_FBK_hermane_triumph"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_hermane_triumph.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FBK_hermane_great_purge"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_hermane_great_purge.tga"
+	}
+}

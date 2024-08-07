@@ -1,0 +1,170 @@
+focus_tree = {
+	id = FBK_intial_hermane
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 20
+			tag = FBK
+			has_country_flag = supported_hermane
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 5000 y = 100 }
+	
+	shared_focus = FBK_hermane_triumph
+	
+}
+
+shared_focus = {
+	id = FBK_hermane_triumph
+	icon = GFX_goal_FBK_hermane_triumph
+	x = 10
+	y = 0
+	ai_will_do = { factor = 250 }
+	cost = 1
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_hermane_triumph"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = FBK_hermane_great_purge
+	icon = GFX_goal_FBK_hermane_great_purge
+	prerequisite = { focus = FBK_hermane_triumph }
+	x = 10
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_hermane_great_purge"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+	
+shared_focus = {
+	id = FBK_reassure_cenhelm
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_hermane_great_purge }
+	x = 9
+	y = 2
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_reassure_cenhelm"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+	
+shared_focus = {
+	id = FBK_reinforce_the_white_hooves
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_hermane_great_purge }
+	x = 11
+	y = 2
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_reinforce_the_white_hooves"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+	
+shared_focus = {
+	id = FBK_hail_to_chief
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_reassure_cenhelm }
+	prerequisite = { focus = FBK_reinforce_the_white_hooves }
+	x = 10
+	y = 3
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_hail_to_chief"
+		hidden_effect = {
+			set_country_flag = hermane_secured_power
+			mark_focus_tree_layout_dirty = yes
+		}
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = FBK_gering_to_rijekograd
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_hail_to_chief }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+	}
+	relative_position_id = FBK_hail_to_chief
+	x = -3
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_gering_to_rijekograd"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = FBK_hermane_machinations
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_hail_to_chief }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+	}
+	relative_position_id = FBK_hail_to_chief
+	x = 3
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_hermane_machinations"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}

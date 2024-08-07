@@ -216,3 +216,80 @@ shared_focus = {
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }
+
+shared_focus = {
+	id = FBK_torch_firtree
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_into_the_forest }
+	mutually_exclusive = { focus = FBK_kindred_spirit }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+	}
+	relative_position_id = FBK_into_the_forest
+	x = -1
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_torch_firtree"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = FBK_kindred_spirit
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_into_the_forest }
+	mutually_exclusive = { focus = FBK_torch_firtree }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+	}
+	relative_position_id = FBK_into_the_forest
+	x = 1
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_kindred_spirit"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = FBK_set_forest_straight
+	icon = GFX_goal_support_fascism
+	prerequisite = { 
+		focus = FBK_kindred_spirit
+		focus = FBK_torch_firtree
+	}
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+	}
+	relative_position_id = FBK_kindred_spirit
+	x = -1
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_set_forest_straight"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}

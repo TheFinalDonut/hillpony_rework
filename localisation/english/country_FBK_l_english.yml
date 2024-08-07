@@ -3,7 +3,7 @@
 ### FOCUS LOCALISATION ####################
 ###########################################
 #INTIAL TREE
-FBK_council:0 "The Council Deliberates"
+FBK_council:0 "The Grand Moot"
 FBK_council_desc:0 ""
 FBK_cenhelm:0 "The Brave"
 FBK_cenhelm_desc:0 ""
@@ -43,6 +43,12 @@ FBK_into_the_forest:0 "Into the Forest"
 FBK_into_the_forest_desc:0 ""
 FBK_fabled_spring:0 "The Fabled Spring"
 FBK_fabled_spring_desc:0 ""
+FBK_torch_firtree:0 "Torch Firtree"
+FBK_torch_firtree_desc:0 ""
+FBK_kindred_spirit:0 "A Kindred Spirit"
+FBK_kindred_spirit_desc:0 ""
+FBK_set_forest_straight:0 "Set the Forest Straight"
+FBK_set_forest_straight_desc:0 ""
 ###########################################
 ### LEADERS ###############################
 ###########################################

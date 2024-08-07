@@ -146,7 +146,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = FBK_hermane_machinations
+	id = FBK_hermane_expansion
 	icon = GFX_goal_support_fascism
 	prerequisite = { focus = FBK_hail_to_chief }
 	allow_branch = {
@@ -162,7 +162,7 @@ shared_focus = {
 		is_subject = no
 	}
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus FBK_hermane_machinations"
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_hermane_expansion"
 		#add_political_power = 100
 		#country_event = { days = 1 id = FBK.1 }
 	}
@@ -172,11 +172,11 @@ shared_focus = {
 shared_focus = {
 	id = FBK_into_the_forest
 	icon = GFX_goal_support_fascism
-	prerequisite = { focus = FBK_hermane_machinations }
+	prerequisite = { focus = FBK_hermane_expansion }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power
 	}
-	relative_position_id = FBK_hermane_machinations
+	relative_position_id = FBK_hermane_expansion
 	x = -1
 	y = 1
 	ai_will_do = { factor = 250 }
@@ -196,11 +196,11 @@ shared_focus = {
 shared_focus = {
 	id = FBK_fabled_spring
 	icon = GFX_goal_support_fascism
-	prerequisite = { focus = FBK_hermane_machinations }
+	prerequisite = { focus = FBK_hermane_expansion }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power
 	}
-	relative_position_id = FBK_hermane_machinations
+	relative_position_id = FBK_hermane_expansion
 	x = 1
 	y = 1
 	ai_will_do = { factor = 250 }

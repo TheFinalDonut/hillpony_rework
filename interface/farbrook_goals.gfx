@@ -11,4 +11,16 @@ spriteTypes = {
 		name = "GFX_goal_FBK_hermane_great_purge"
 		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_hermane_great_purge.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_FBK_reinforce_the_white_hooves"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_reinforce_the_white_hooves.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FBK_reassure_cenhelm"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_reassure_cenhelm.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FBK_hail_to_chief"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_hail_to_chief.tga"
+	}
 }

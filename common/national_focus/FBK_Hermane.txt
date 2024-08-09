@@ -58,7 +58,7 @@ shared_focus = {
 	
 shared_focus = {
 	id = FBK_reassure_cenhelm
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_reassure_cenhelm
 	prerequisite = { focus = FBK_hermane_great_purge }
 	x = 9
 	y = 2
@@ -78,7 +78,7 @@ shared_focus = {
 	
 shared_focus = {
 	id = FBK_reinforce_the_white_hooves
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_reinforce_the_white_hooves
 	prerequisite = { focus = FBK_hermane_great_purge }
 	x = 11
 	y = 2
@@ -98,7 +98,7 @@ shared_focus = {
 	
 shared_focus = {
 	id = FBK_hail_to_chief
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_hail_to_chief
 	prerequisite = { focus = FBK_reassure_cenhelm }
 	prerequisite = { focus = FBK_reinforce_the_white_hooves }
 	x = 10

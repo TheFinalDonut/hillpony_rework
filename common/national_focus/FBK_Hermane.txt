@@ -120,13 +120,17 @@ shared_focus = {
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }
-
+#River Coalition entry
 shared_focus = {
 	id = FBK_gering_to_rijekograd
 	icon = GFX_goal_support_fascism
 	prerequisite = { focus = FBK_hail_to_chief }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power
+		NOT = {
+			has_global_flag = LCT_prince_restored
+			has_country_flag = FBK_hermane_coalition_rejection
+		}
 	}
 	relative_position_id = FBK_hail_to_chief
 	x = -3
@@ -145,6 +149,87 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }
 
+shared_focus = {
+	id = FBK_promote_equine_unity
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_gering_to_rijekograd }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+		NOT = {
+			has_global_flag = LCT_prince_restored
+			has_country_flag = FBK_hermane_coalition_rejection
+		}
+	}
+	relative_position_id = FBK_gering_to_rijekograd
+	x = -1
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_promote_equine_unity"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+#Prince and co-prosperity shit
+shared_focus = {
+	id = FBK_an_unexpected_meeting
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_hail_to_chief }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+		has_global_flag = LCT_prince_restored
+	}
+	relative_position_id = FBK_hail_to_chief
+	x = -3
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_an_unexpected_meeting"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+#Griffonian Empire hermane
+shared_focus = {
+	id = FBK_the_uturn
+	icon = GFX_goal_FBK_the_uturn
+	prerequisite = { focus = FBK_hail_to_chief }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+		has_country_flag = FBK_hermane_coalition_rejection
+		NOT = {
+			has_global_flag = LCT_prince_restored
+		}
+	}
+	relative_position_id = FBK_hail_to_chief
+	x = -3
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_the_uturn"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+#Hermane unification
 shared_focus = {
 	id = FBK_hermane_expansion
 	icon = GFX_goal_support_fascism

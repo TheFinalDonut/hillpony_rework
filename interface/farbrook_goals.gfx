@@ -23,4 +23,8 @@ spriteTypes = {
 		name = "GFX_goal_FBK_hail_to_chief"
 		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_hail_to_chief.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_FBK_the_uturn"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_the_uturn.tga"
+	}
 }

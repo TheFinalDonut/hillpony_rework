@@ -27,4 +27,12 @@ spriteTypes = {
 		name = "GFX_goal_FBK_the_uturn"
 		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_the_uturn.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_FBK_an_unexpected_meeting"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_an_unexpected_meeting.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FBK_gering_to_rijekograd"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_gering_to_rijekograd.tga"
+	}
 }

@@ -123,7 +123,7 @@ shared_focus = {
 #River Coalition entry
 shared_focus = {
 	id = FBK_gering_to_rijekograd
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_gering_to_rijekograd
 	prerequisite = { focus = FBK_hail_to_chief }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power
@@ -179,7 +179,7 @@ shared_focus = {
 #Prince and co-prosperity shit
 shared_focus = {
 	id = FBK_an_unexpected_meeting
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_an_unexpected_meeting
 	prerequisite = { focus = FBK_hail_to_chief }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power

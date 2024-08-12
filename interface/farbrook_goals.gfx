@@ -35,4 +35,16 @@ spriteTypes = {
 		name = "GFX_goal_FBK_gering_to_rijekograd"
 		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_gering_to_rijekograd.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_FBK_hermane_expansion"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_hermane_expansion.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FBK_torch_firtree"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_torch_firtree.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FBK_kindred_spirit"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_kindred_spirit.tga"
+	}
 }

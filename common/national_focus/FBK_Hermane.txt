@@ -149,33 +149,6 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }
 
-shared_focus = {
-	id = FBK_promote_equine_unity
-	icon = GFX_goal_support_fascism
-	prerequisite = { focus = FBK_gering_to_rijekograd }
-	allow_branch = {
-	    has_country_flag = hermane_secured_power
-		NOT = {
-			has_global_flag = LCT_prince_restored
-			has_country_flag = FBK_hermane_coalition_rejection
-		}
-	}
-	relative_position_id = FBK_gering_to_rijekograd
-	x = -1
-	y = 1
-	ai_will_do = { factor = 250 }
-	cost = 2
-	available_if_capitulated = yes
-	available = {
-		is_subject = no
-	}
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus FBK_promote_equine_unity"
-		#add_political_power = 100
-		#country_event = { days = 1 id = FBK.1 }
-	}
-	search_filters = { FOCUS_FILTER_POLITICAL }
-}
 #Prince and co-prosperity shit
 shared_focus = {
 	id = FBK_an_unexpected_meeting
@@ -196,6 +169,31 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_an_unexpected_meeting"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = FBK_promote_equine_unity
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_an_unexpected_meeting }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+		has_global_flag = LCT_prince_restored
+	}
+	relative_position_id = FBK_an_unexpected_meeting
+	x = -1
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_promote_equine_unity"
 		#add_political_power = 100
 		#country_event = { days = 1 id = FBK.1 }
 	}
@@ -232,7 +230,7 @@ shared_focus = {
 #Hermane unification
 shared_focus = {
 	id = FBK_hermane_expansion
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_hermane_expansion
 	prerequisite = { focus = FBK_hail_to_chief }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power
@@ -352,7 +350,7 @@ shared_focus = {
 
 shared_focus = {
 	id = FBK_torch_firtree
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_torch_firtree
 	prerequisite = { focus = FBK_into_the_forest }
 	mutually_exclusive = { focus = FBK_kindred_spirit }
 	allow_branch = {
@@ -377,7 +375,7 @@ shared_focus = {
 
 shared_focus = {
 	id = FBK_kindred_spirit
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_kindred_spirit
 	prerequisite = { focus = FBK_into_the_forest }
 	mutually_exclusive = { focus = FBK_torch_firtree }
 	allow_branch = {

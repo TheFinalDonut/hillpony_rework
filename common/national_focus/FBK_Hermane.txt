@@ -254,7 +254,7 @@ shared_focus = {
 
 shared_focus = {
 	id = FBK_into_the_forest
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_into_the_forest
 	prerequisite = { focus = FBK_hermane_expansion }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power

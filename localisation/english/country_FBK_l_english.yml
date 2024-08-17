@@ -4,13 +4,13 @@
 ###########################################
 #INTIAL TREE
 FBK_council:0 "The Grand Moot"
-FBK_council_desc:0 ""
+FBK_council_desc:0 "The time of the Grand Moot is upon the tribes of Farbrook. Every seventh fishing season elders from the disjointed tribes convene to select a new High Chief."
 FBK_cenhelm:0 "The Brave"
-FBK_cenhelm_desc:0 ""
+FBK_cenhelm_desc:0 "Cenhelm of Clan Gering is the face of the Reformist movement sweeping the populace. As the Chief of the City of Farbrook he has espoused beliefs of uniting with our brethren to the west and formalizing our nebulous relationship with Riverponies."
 FBK_traditionalists:0 "The Old Guard"
 FBK_traditionalists_desc:0 ""
-FBK_hermane:0 "The Madmare"
-FBK_hermane_desc:0 ""
+FBK_hermane:0 "The Mad Stallion"
+FBK_hermane_desc:0 "The lesser known of the Gering brothers, Herman is just as involved in the Reformist movement as his brother. He has shown a more militaristic outlook to his beliefs however this caused some strife in the movement."
 FBK_external_issues:0 "Issues Without"
 FBK_external_issues_desc:0 ""
 FBK_internal_issues:0 "And Within"

@@ -336,7 +336,7 @@ shared_focus = {
 
 shared_focus = {
 	id = FBK_fabled_spring
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_fabled_spring
 	prerequisite = { focus = FBK_hermane_expansion }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power

@@ -61,6 +61,10 @@ FBK_an_unexpected_meeting:0 "An Unexpected Meeting"
 FBK_an_unexpected_meeting_desc:0 ""
 FBK_the_uturn:0 "The U-Turn"
 FBK_the_uturn_desc:0 ""
+FBK_promote_eastern_solidarity:0 "Promote Eastern Solidarity"
+FBK_promote_eastern_solidarity_desc:0 ""
+FBK_tarpian_dread:0 "The Tarpian Dread"
+FBK_tarpian_dread_desc:0 ""
 ###########################################
 ### LEADERS ###############################
 ###########################################
@@ -174,8 +178,15 @@ FBK_initial.8.d:0 "The Council has selected Hermane to become High Chieftan."
 FBK_initial.8.a:0 "Farbrook Charges into the Future"
 
 FBK_initial.9.t:0 "The Decision"
-FBK_initial.9.d:0 "The Council has selected Some Rando Trad to become High Chieftan."
+FBK_initial.9.d:0 "The Council has selected FUCKING HEMPSTRAND to become High Chieftan."
 FBK_initial.9.a:0 "Farbrook Retreats into the Past"
+
+### HERMANE DIPLO CHAIN ###
+
+FBK_initial_diplo_hermane.1.t:0 "Hermane Departing"
+FBK_initial_diplo_hermane.1.d:0 ""Cenhelm, you're in charge while I'm gone."\n\n"Ok," replied Cenhelm as Hermane fucking dematerialized, "time to go fuck my cute waifu queen Gytha."" #regret
+FBK_initial_diplo_hermane.1.a:0 ""What was that about my accent, dear?""
+
 ###CUSTOM TOOLTIPS###
 FBK_chieftan_election_tooltip:0 "§OThe next High Chief of Farbrook will be elected by the Council based on your prior decisions.§!"
 

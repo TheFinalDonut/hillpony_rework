@@ -144,6 +144,62 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_gering_to_rijekograd"
 		#add_political_power = 100
+		country_event = { days = 1 id = FBK_initial_diplo_hermane.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = FBK_promote_eastern_solidarity
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_gering_to_rijekograd }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+		NOT = {
+			has_global_flag = LCT_prince_restored
+			has_country_flag = FBK_hermane_coalition_rejection
+		}
+	}
+	relative_position_id = FBK_gering_to_rijekograd
+	x = -1
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_promote_eastern_solidarity"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = FBK_tarpian_dread
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_gering_to_rijekograd }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+		NOT = {
+			has_global_flag = LCT_prince_restored
+			has_country_flag = FBK_hermane_coalition_rejection
+		}
+	}
+	relative_position_id = FBK_gering_to_rijekograd
+	x = 1
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_tarpian_dread"
+		#add_political_power = 100
 		#country_event = { days = 1 id = FBK.1 }
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }

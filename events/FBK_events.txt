@@ -4,6 +4,7 @@ add_namespace = FBK_initial
 add_namespace = FBK_cenhelm
 add_namespace = FBK_old_guard
 add_namespace = FBK_initial_hermane
+add_namespace = FBK_initial_diplo_hermane
 add_namespace = FBK_drinking
 add_namespace = FBK_coalition_hermane
 add_namespace = FBK_lake_hermane
@@ -324,5 +325,27 @@ country_event = {
 		add_stability = 0.10
 		add_war_support = -0.10
 		add_political_power = 50
+	}
+}
+
+### HERMANE INTIAL EVENTS ###
+
+country_event = {
+	id = FBK_initial_diplo_hermane.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event FBK_initial_diplo_hermane.1"}
+	title = FBK_initial_diplo_hermane.1.t
+	desc = FBK_initial_diplo_hermane.1.d
+	picture = GFX_event_feast
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = FBK_initial_diplo_hermane.1.a
+		hidden_effect = {
+			#set_country_flag = 
+		}
+		
 	}
 }

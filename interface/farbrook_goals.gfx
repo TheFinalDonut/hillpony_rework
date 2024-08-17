@@ -51,4 +51,8 @@ spriteTypes = {
 		name = "GFX_goal_FBK_into_the_forest"
 		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_into_the_forest.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_FBK_set_forest_straight"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_set_forest_straight.tga"
+	}
 }

@@ -189,6 +189,7 @@ FBK_initial_diplo_hermane.1.a:0 ""What was that about my accent, dear?""
 
 ###CUSTOM TOOLTIPS###
 FBK_chieftan_election_tooltip:0 "§OThe next High Chief of Farbrook will be elected by the Council based on your prior decisions.§!"
+hermane_completed_tour:0 "Hermane has completed his tour of the Riverlands"
 
 FBK_gering_will_be_crowned:0 "Hermane will become §Ythe first King of the House of Gering§!. Long may his line live!\n"
 FBK_gering_will_be_duke:0 "Hermane will become §Ythe first Grand Duke of the House of Gering§!, and his line will become part of the greatest Empire the world has ever known.\n"

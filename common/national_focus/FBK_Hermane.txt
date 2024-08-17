@@ -167,6 +167,7 @@ shared_focus = {
 	cost = 2
 	available_if_capitulated = yes
 	available = {
+		has_country_flag = hermane_completed_tour
 		is_subject = no
 	}
 	completion_reward = {
@@ -195,6 +196,7 @@ shared_focus = {
 	cost = 2
 	available_if_capitulated = yes
 	available = {
+		has_country_flag = hermane_completed_tour
 		is_subject = no
 	}
 	completion_reward = {
@@ -456,7 +458,7 @@ shared_focus = {
 
 shared_focus = {
 	id = FBK_set_forest_straight
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_set_forest_straight
 	prerequisite = { 
 		focus = FBK_kindred_spirit
 		focus = FBK_torch_firtree

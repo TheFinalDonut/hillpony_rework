@@ -310,6 +310,17 @@ ideas = {
 	}
 
 	country = {
-		
+		FBK_idea_the_reform_debate = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				political_power_factor = -0.5
+			}
+			picture = unhappy_army_3
+		}
 	}
 }

@@ -328,8 +328,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_into_the_forest"
-		#add_political_power = 100
-		#country_event = { days = 1 id = FBK.1 }
+		declare_war_on = {
+			target = FIR
+			type = annex_everything
+		}
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }
@@ -352,8 +354,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_fabled_spring"
-		#add_political_power = 100
-		#country_event = { days = 1 id = FBK.1 }
+		declare_war_on = {
+			target = WAT
+			type = annex_everything
+		}
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }

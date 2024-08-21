@@ -59,4 +59,16 @@ spriteTypes = {
 		name = "GFX_goal_FBK_fabled_spring"
 		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_fabled_spring.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_FBK_teach_savages"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_teach_savages.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FBK_interesting_discovery"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_interesting_discovery.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FBK_greater_farbrook"
+		texturefile = "gfx/interface/goals/FBK/REWORK/Hermane/FBK_greater_farbrook.tga"
+	}
 }

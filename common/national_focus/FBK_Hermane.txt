@@ -360,7 +360,7 @@ shared_focus = {
 
 shared_focus = {
 	id = FBK_teach_savages
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_teach_savages
 	prerequisite = { focus = FBK_fabled_spring }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power
@@ -384,7 +384,7 @@ shared_focus = {
 
 shared_focus = {
 	id = FBK_interesting_discovery
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_interesting_discovery
 	prerequisite = { focus = FBK_teach_savages }
 	allow_branch = {
 	    has_country_flag = hermane_secured_power
@@ -485,7 +485,7 @@ shared_focus = {
 
 shared_focus = {
 	id = FBK_greater_farbrook
-	icon = GFX_goal_support_fascism
+	icon = GFX_goal_FBK_greater_farbrook
 	prerequisite = { focus = FBK_interesting_discovery }
 	prerequisite = { focus = FBK_set_forest_straight }
 	allow_branch = {
@@ -502,6 +502,30 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_greater_farbrook"
+		#add_political_power = 100
+		#country_event = { days = 1 id = FBK.1 }
+	}
+	search_filters = { FOCUS_FILTER_POLITICAL }
+}
+
+shared_focus = {
+	id = FBK_hermane_machinations
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = FBK_greater_farbrook }
+	allow_branch = {
+	    has_country_flag = hermane_secured_power
+	}
+	relative_position_id = FBK_greater_farbrook
+	x = -3
+	y = 1
+	ai_will_do = { factor = 250 }
+	cost = 2
+	available_if_capitulated = yes
+	available = {
+		is_subject = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus FBK_hermane_machinations"
 		#add_political_power = 100
 		#country_event = { days = 1 id = FBK.1 }
 	}

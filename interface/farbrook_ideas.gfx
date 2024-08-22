@@ -5,4 +5,8 @@ spriteTypes = {
 		name = "GFX_idea_FBK_the_reform_debate"
 		texturefile = "gfx/interface/ideas/FBK/FBK_the_reform_debate.tga"
 	}
+	SpriteType = {
+		name = "GFX_idea_FBK_gering_preeminence"
+		texturefile = "gfx/interface/ideas/FBK/FBK_gering_preeminence.tga"
+	}
 }

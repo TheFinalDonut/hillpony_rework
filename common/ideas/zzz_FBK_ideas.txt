@@ -322,7 +322,7 @@ ideas = {
 			}
 			picture = FBK_the_reform_debate
 		}
-		FBK_idea_the_gering_brothers = {
+		FBK_idea_gering_preeminence = {
 			allowed = {
 				always = no
 			}
@@ -333,7 +333,7 @@ ideas = {
 				fascism_drift = 0.1
 				democratic_drift = 0.1
 			}
-			picture = unhappy_army_3
+			picture = FBK_gering_preeminence
 		}
 	}
 }

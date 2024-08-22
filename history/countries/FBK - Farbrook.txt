@@ -39,7 +39,7 @@ set_politics = {
 add_ideas = {
 	agrarian_society
 	FBK_idea_the_reform_debate
-	FBK_idea_the_gering_brothers
+	FBK_idea_gering_preeminence
 }
 add_opinion_modifier = { target = NCH modifier = besties }
 add_opinion_modifier = { target = NCH modifier = trading }

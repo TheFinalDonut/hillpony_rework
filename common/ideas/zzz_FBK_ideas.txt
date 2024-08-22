@@ -310,6 +310,7 @@ ideas = {
 	}
 
 	country = {
+		### Initial Ideas ###
 		FBK_idea_the_reform_debate = {
 			allowed = {
 				always = no
@@ -336,6 +337,43 @@ ideas = {
 				democratic_drift = 0.05
 			}
 			picture = FBK_gering_preeminence
+		}
+		FBK_idea_hempstrand_old_guard = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				
+			}
+			picture = FBK_hempstrand_old_guard
+		}
+		### Hillfolk League Ideas ###
+		FBK_idea_hillfolk_league_leader = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				
+			}
+			picture = FBK_hillfolk_league_member
+		}
+		FBK_idea_hillfolk_league_member = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				
+			}
+			picture = FBK_hillfolk_league_member
 		}
 	}
 }

@@ -9,4 +9,12 @@ spriteTypes = {
 		name = "GFX_idea_FBK_gering_preeminence"
 		texturefile = "gfx/interface/ideas/FBK/FBK_gering_preeminence.tga"
 	}
+	SpriteType = {
+		name = "GFX_idea_FBK_hempstrand_old_guard"
+		texturefile = "gfx/interface/ideas/FBK/FBK_hempstrand_old_guard.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_FBK_hillfolk_league_member"
+		texturefile = "gfx/interface/ideas/FBK/FBK_hillfolk_league_member.tga"
+	}
 }

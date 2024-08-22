@@ -6,11 +6,11 @@ characters={
 				large="gfx/leaders/leader_unknown.dds"
 			}
 		}
-#		country_leader={
-#			ideology=tribal_council
-#			expire="1965.1.1.1"
-#			id=-1
-#		}
+		country_leader={
+			ideology=tribal_council
+			expire="1965.1.1.1"
+			id=-1
+		}
 	}
 	FBK_hermane_gering={
 		name=FBK_hermane_gering
@@ -102,11 +102,6 @@ characters={
 			civilian={
 				large="gfx/leaders/FBK/Hempstrand.tga"
 			}
-		}
-		country_leader={
-			ideology=tribal_council
-			expire="1965.1.1.1"
-			id=-1
 		}
 	}
 	FBK_interim_government={

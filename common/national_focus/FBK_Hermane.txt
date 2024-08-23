@@ -50,8 +50,12 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_hermane_great_purge"
-		#add_political_power = 100
-		#country_event = { days = 1 id = FBK.1 }
+		add_stability = -0.1
+		add_political_power = -125
+		add_timed_idea = {
+			idea = FBK_idea_hermane_purging
+			days = 90
+		}
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }
@@ -90,8 +94,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_reinforce_the_white_hooves"
-		#add_political_power = 100
-		#country_event = { days = 1 id = FBK.1 }
+		add_timed_idea = {
+			idea = FBK_idea_whitehooves_reinforced
+			days = 100
+		}
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }
@@ -404,8 +410,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_interesting_discovery"
-		#add_political_power = 100
-		#country_event = { days = 1 id = FBK.1 }
+		WAT = { add_to_ROOT_potential_cores = yes }
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }
@@ -481,8 +486,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_set_forest_straight"
-		#add_political_power = 100
-		#country_event = { days = 1 id = FBK.1 }
+		FIR = { add_to_ROOT_potential_cores = yes }
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }
@@ -506,8 +510,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus FBK_greater_farbrook"
-		#add_political_power = 100
-		#country_event = { days = 1 id = FBK.1 }
+		set_cosmetic_tag = FBK_high_chiefdom
 	}
 	search_filters = { FOCUS_FILTER_POLITICAL }
 }

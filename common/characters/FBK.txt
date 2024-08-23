@@ -50,7 +50,7 @@ characters={
 			available = {
 				OR = {
 					has_government = fascism
-					has_completed_focus = FBK_ally_white_hooves
+					
 				}
 			}
 			traits = {
@@ -150,7 +150,7 @@ characters={
 			available = {
 				OR = {
 					has_government = communism
-					has_completed_focus = FBK_ally_NESP
+					
 				}
 			}
 			traits = {

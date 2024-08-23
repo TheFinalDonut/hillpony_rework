@@ -1,4 +1,8 @@
 # FARBROOKKKKKKKKK
+FBK_high_chiefdom = {
+	color = rgb { 99 101 157 }
+	color_ui = rgb { 99 101 157 }
+}
 FBK_hyperwar = {
 	color = rgb { 0 18 145 }
 	color_ui = rgb { 0 18 145 }
@@ -15,6 +19,7 @@ MIT_ancient = {
 	color = rgb { 0 18 145 }
 	color_ui = rgb { 0 18 145 }
 }
+
 FAT_Monarchy = {
 	color = rgb { 104 107 156 }
 	color_ui = rgb { 104 107 156 }

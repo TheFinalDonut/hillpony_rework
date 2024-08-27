@@ -25,10 +25,10 @@ if = {
 
 set_convoys = 70
 set_popularities = {
-	democratic = 28
-	fascism = 23
+	democratic = 30
+	fascism = 22
 	communism = 0
-	neutrality = 49
+	neutrality = 48
 }
 set_politics = {
 	ruling_party = neutrality
